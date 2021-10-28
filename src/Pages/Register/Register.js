@@ -12,7 +12,7 @@ const Register = () => {
 	const onSubmit = data => {
 		console.log(data);
 
-        axios.post('http://localhost:5000/volunteer', data)
+        axios.post('https://blooming-thicket-33498.herokuapp.com/volunteer', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');
