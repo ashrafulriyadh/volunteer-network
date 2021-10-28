@@ -12,7 +12,7 @@ const Register = () => {
 	const onSubmit = data => {
 		console.log(data);
 
-        axios.post('http://localhost:5000/events', data)
+        axios.post('http://localhost:5000/volunteer', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');
