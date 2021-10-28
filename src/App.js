@@ -44,10 +44,10 @@ function App() {
       <Header></Header>
         <Admin></Admin>
       </PrivateRoute>
-      <Route path="/register">
+      <PrivateRoute path="/register/:myeventId">
       <Header></Header>
         <Register></Register>
-      </Route>
+      </PrivateRoute>
       <Route exact path="*">
       <Header></Header>
        <NotFound></NotFound>
