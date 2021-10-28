@@ -11,6 +11,7 @@ import Register from './Pages/Register/Register';
 import NotFound from './Pages/NotFound/NotFound';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import AllEvent from './AllEvent/AllEvent';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       </Route>
       <PrivateRoute path="/events">
       <Header></Header>
-        <Events></Events>
+        <AllEvent></AllEvent>
       </PrivateRoute>
       <Route path="/blog">
       <Header></Header>
