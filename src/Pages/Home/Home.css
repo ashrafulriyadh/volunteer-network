@@ -1,0 +1,10 @@
+.top-banner {
+	background-image: url('../../images/bg.jpg');
+	height: 60vh;
+	position: absolute;
+	width: 100%;
+	opacity: 0.1;
+	background-attachment: fixed;
+	background-position: center-top;
+
+}
